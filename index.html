@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satya Chandu - Personal Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <div class="header-content">
+            <img src="https://media.licdn.com/dms/image/v2/C5603AQFCmns1DQFcCw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516283980025?e=1762387200&v=beta&t=lcFw281LOJETokd9J3r_ZfQiu1_NtiOoCoPCzW8ikIM" alt="Satya Chandu" class="header-profile-picture">
+            <div class="header-text">
+                <h1>Satya Chandu</h1>
+                <p class="header-subtitle">Software QA Architect & AI/GenAI Quality Engineering Expert</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="slideshow-container">
+                <div class="slide active">
+                    <h3>Project 1</h3>
+                    <p>Architected end-to-end Quality Engineering strategy for retail enterprise platforms with  DUG, 3PL, 1PL, MFC orders management, inventory, and fulfillment .
+Defined test architecture blueprints integrating Gen AI, LLM-assisted automation, and CI/CD-driven validation pipelines to ensure quality across cloud, mobile, and embedded applications.
+Established QA governance framework covering test planning, risk assessment, automation scope, and KPI-based reporting aligned with business SLAs.
+Designed and implemented a modular automation framework using Java, Cucumber, Playwright, REST API's, and Node.js, supporting API, UI, and backend testing.
+Integrated AI-assisted test generation via prompt engineering, reducing authoring time by 50% and boosting coverage through LLM-based scenario prediction.
+Directed QA strategy for Kafka event-driven systems, validating data integrity, message flow
+Led architecture of AI-driven regression suite leveraging Azure Co-pilot and GitHub Actions, enabling autonomous nightly runs and self-healing test analytics.
+Oversaw performance benchmarking using K6,  and LoadRunner, defining thresholds for transaction latency and throughput across distributed order workflows.
+Mentored global QA teams in automation design patterns, framework scalability, and effective usage of GenAI in test creation and defect triage..</p>
+                </div>
+                <div class="slide">
+                    <h3>Project 2</h3>
+                    <p>Led test automation efforts for web based HRMS solutions, ensuring high quality software releases through functional, regression, system and cross browser testing using test plans. Implemented TDD using SQL with data obtained from Oracle Database back-end and ensured every transaction was updated properly in PeopleSoft back-end also, using RabbitMQ messaging. 
+Led QA efforts for AI-powered HR solutions, focusing on automation, model output validation, and backend integration.
+Conducted performance and regression testing for AI-driven modules (e.g., predictive HR workflows and document classification).
+Built custom data validation and ETL testing scripts to ensure training data quality and transformation accuracy.
+Developed automated testing suites using Selenium, TestNG, Playwright and REST Assured, reaching 95% API test pass rate.
+Played a key role in integrating RabbitMQ messaging and Oracle-backed processes into automated pipelines.
+Spearheaded CI/CD adoption across teams, improving release reliability and QA turnaround.
+Partnered closely with engineering, product, and DevOps to ensure seamless delivery across hybrid cloud environments..</p>
+                </div>
+                <div class="slide">
+                    <h3>Project 3</h3>
+                    <p>Worked and operated as project’s lead automation engineer for executing REST API analytics, using REST Assured, Simple Tester, and Micro Tester Frameworks using Python. Tested REST APIs, using Postman client for trend, temporal, shift, and high-dimensional analytics. Deployed analytics in Predix.io and APM environment, and tested successfully, as well as ICDL application in Analytics (underneath Predix and Predix Insight Apps). Planned and deployed automation scripts in Jenkins continuous integration. Drove deployments of AI algorithms in the industrial Internet domain on GE Predix platform, world’s most comprehensive PaaS for industrial assets. 
+Led QA initiatives for AI/ML model validation in Predix.io – GE’s Industrial IoT platform.
+Validated AI algorithms (Time Series Forecasting, ARIMA models) using Python, Pandas, NumPy, and SPSS.
+Developed adversarial and edge-case tests for analytics APIs and deployed automation via Jenkins.
+Partnered with data science teams to ensure reproducibility, accuracy, and performance of AI models.
+Conducted exploratory and black-box testing for high-dimensional analytics and trend detection features..</p>
+                </div>
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+                <div class="dots-container">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>As a Software QA Architect with extensive global and domestic experience, I specialize in quality engineering, automation strategy, and enterprise-level test architecture. My expertise centers on GenAI- and LLM-enabled QA transformation, framework design, and scalable automation across complex distributed systems.</p>
+                    <p>I excel in defining end-to-end quality architecture, implementing governance models, and driving continuous improvement through data-driven metrics and process automation. My passion lies in leveraging cutting-edge AI technologies to revolutionize quality assurance processes.</p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-robot"></i>
+                            <h4>AI/GenAI QA Expert</h4>
+                            <p>Pioneering AI-driven testing solutions</p>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-cogs"></i>
+                            <h4>Automation Architect</h4>
+                            <p>Scalable framework design</p>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Quality Leadership</h4>
+                            <p>Enterprise-level governance</p>
+                        </div>
+                    </div>
+                    <a href="./resume.doc" download="Satya_Chandu_Resume.doc" class="resume-link">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>Programming Languages</h3>
+                    <p>Java, Python, R, Jasmine, Node.js, Perl, J2EE, EJB, Servlets, XML, Delphi 6.0, SQL, Fortran, PL/SQL, HL7, SuperBase C++, HTML</p>
+                    <div class="progress-bar">
+                        <div class="progress" data-skill="95"></div>
+                    </div>
+                    <span class="progress-text">95%</span>
+                </div>
+                <div class="skill">
+                    <h3>Database Systems</h3>
+                    <p>Azure DB, MongoDB, Oracle, MySQL, MS Access, Advantage, Superbase</p>
+                    <div class="progress-bar">
+                        <div class="progress" data-skill="90"></div>
+                    </div>
+                    <span class="progress-text">90%</span>
+                </div>
+                <div class="skill">
+                    <h3>Automation Frameworks</h3>
+                    <p>Cucumber, BDD, TDD, Playwright, TestNG, JUnit, Selenium, Robot, Protractor, REST Assured API, Simple Tester, Micro Tester, Fitness and Voltage, QTP, QC</p>
+                    <div class="progress-bar">
+                        <div class="progress" data-skill="95"></div>
+                    </div>
+                    <span class="progress-text">95%</span>
+                </div>
+                <div class="skill">
+                    <h3>Cloud & AI Environment</h3>
+                    <p>Azure Cloud and Co-pilot, LLM, AI Agent, K6, MCP</p>
+                    <div class="progress-bar">
+                        <div class="progress" data-skill="85"></div>
+                    </div>
+                    <span class="progress-text">85%</span>
+                </div>
+                <div class="skill">
+                    <h3>Bug Databases & Tools</h3>
+                    <p>Jira, Rally, QA Complete, QC, Test Director, Bugzilla, Remedy, Rational</p>
+                    <div class="progress-bar">
+                        <div class="progress" data-skill="90"></div>
+                    </div>
+                    <span class="progress-text">90%</span>
+                </div>
+                <div class="skill">
+                    <h3>Performance Tools</h3>
+                    <p>WAPT, Silk Performer, LoadRunner</p>
+                    <div class="progress-bar">
+                        <div class="progress" data-skill="85"></div>
+                    </div>
+                    <span class="progress-text">85%</span>
+                </div>
+                <div class="skill">
+                    <h3>Version Control</h3>
+                    <p>Git, WinCVS, VSS, Perforce, ADE</p>
+                    <div class="progress-bar">
+                        <div class="progress" data-skill="90"></div>
+                    </div>
+                    <span class="progress-text">90%</span>
+                </div>
+                <div class="skill">
+                    <h3>Statistical Packages</h3>
+                    <p>NumPy, Pandas, statsmodels, R, SPSS, IMSL Libraries</p>
+                    <div class="progress-bar">
+                        <div class="progress" data-skill="80"></div>
+                    </div>
+                    <span class="progress-text">80%</span>
+                </div>
+                <div class="skill">
+                    <h3>Report Technologies</h3>
+                    <p>Web-Based Servlet Reports, Oracle SQL Reports, Report Builder, Crystal Reports, Delphi Rave Reports, ABAP/4 Reports</p>
+                    <div class="progress-bar">
+                        <div class="progress" data-skill="85"></div>
+                    </div>
+                    <span class="progress-text">85%</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always interested in discussing new opportunities, innovative QA strategies, and AI-driven testing solutions. Let's connect!</p>
+                <div class="contact-methods">
+                    <a href="https://linkedin.com/in/satya-chandu" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:snchandu@yahoo.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="510-709-9287" class="contact-link">
+                        <i class="fas fa-phone"></i>
+                        <span>Phone</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Satya Chandu. All rights reserved.</p>
+            <p class="footer-subtitle">Transforming Quality Engineering with AI & Automation</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
